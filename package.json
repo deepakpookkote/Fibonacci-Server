@@ -1,0 +1,20 @@
+{
+  "name": "fib-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "express-validator": "^6.2.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4",
+    "npm": "^6.13.0"
+  }
+}
