@@ -8,9 +8,12 @@ const scoreRoutes = require('./routes/score');
 
 const app = express();
 const port = process.env.PORT || 3030;
+const MONGODB_URI = 'mongodb+srv://notesAdmin:kdPUTtfkY4VWqRlv@cluster0-jzxcu.mongodb.net/fiboApp?retryWrites=true&w=majority';
+
+
 
 //DB connection
-mongoose.connect('mongodb://localhost:27017/fiboApp',{
+mongoose.connect(MONGODB_URI,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
